@@ -1,0 +1,246 @@
+[
+    {
+        "number": "114л",
+        "location": "УЛК"
+    },
+    {
+        "number": "908л",
+        "location": "УЛК"
+    },
+    {
+        "number": "839л",
+        "location": "УЛК"
+    },
+    {
+        "number": "1139л",
+        "location": "УЛК"
+    },
+    {
+        "number": "1108л",
+        "location": "УЛК"
+    },
+    {
+        "number": "536л",
+        "location": "УЛК"
+    },
+    {
+        "number": "820л",
+        "location": "УЛК"
+    },
+    {
+        "number": "733л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 918л",
+        "location": "УЛК"
+    },
+    {
+        "number": "617л",
+        "location": "УЛК"
+    },
+    {
+        "number": "137л",
+        "location": "УЛК"
+    },
+    {
+        "number": "947л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 1120л",
+        "location": "УЛК"
+    },
+    {
+        "number": "216л",
+        "location": "УЛК"
+    },
+    {
+        "number": "1035л",
+        "location": "УЛК"
+    },
+    {
+        "number": "932л",
+        "location": "УЛК"
+    },
+    {
+        "number": "917л",
+        "location": "УЛК"
+    },
+    {
+        "number": "748л",
+        "location": "УЛК"
+    },
+    {
+        "number": "847л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 253л",
+        "location": "УЛК"
+    },
+    {
+        "number": "321э",
+        "location": "Энерго"
+    },
+    {
+        "number": "513ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "306ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "330аю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "531",
+        "location": "ГЗ"
+    },
+    {
+        "number": "527",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 189.5",
+        "location": "ГЗ"
+    },
+    {
+        "number": "935л",
+        "location": "УЛК"
+    },
+    {
+        "number": "713л",
+        "location": "УЛК"
+    },
+    {
+        "number": "1031л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 237л",
+        "location": "УЛК"
+    },
+    {
+        "number": "523а",
+        "location": "УЛК"
+    },
+    {
+        "number": "212л",
+        "location": "УЛК"
+    },
+    {
+        "number": "925л",
+        "location": "УЛК"
+    },
+    {
+        "number": "734л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 1106л",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 210а",
+        "location": "УЛК"
+    },
+    {
+        "number": "кк 215м",
+        "location": "СМ"
+    },
+    {
+        "number": "кк 315м",
+        "location": "СМ"
+    },
+    {
+        "number": "кк 401м",
+        "location": "СМ"
+    },
+    {
+        "number": "103м",
+        "location": "СМ"
+    },
+    {
+        "number": "315э",
+        "location": "Энерго"
+    },
+    {
+        "number": "кк 306.2э",
+        "location": "Энерго"
+    },
+    {
+        "number": "кк 306.6э",
+        "location": "Энерго"
+    },
+    {
+        "number": "611э",
+        "location": "Энерго"
+    },
+    {
+        "number": "314э",
+        "location": "Энерго"
+    },
+    {
+        "number": "кк 306.5э",
+        "location": "Энерго"
+    },
+    {
+        "number": "кк 404.1бэ",
+        "location": "Энерго"
+    },
+    {
+        "number": "309ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "424ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "406ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "412ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "405ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "510",
+        "location": "ГЗ"
+    },
+    {
+        "number": "294",
+        "location": "ГЗ"
+    },
+    {
+        "number": "504",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 210",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 189.4",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 503",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 212",
+        "location": "ГЗ"
+    },
+    {
+        "number": "304мт",
+        "location": "МТ"
+    }
+]

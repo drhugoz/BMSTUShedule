@@ -1,0 +1,76 @@
+version: "3"
+
+services: 
+  api:
+    build: swagger_server/
+    depends_on: 
+      - database
+    volumes: 
+      - ./:/usr/src/app
+    command: 'python3 -m swagger_server'
+  
+  swagger-ui:
+    image: swaggerapi/swagger-ui:v3.24.3
+    volumes:
+      - ./swagger_server/swagger:/swagger
+    environment:
+      SWAGGER_JSON: /swagger/swagger.yaml
+
+  marusya:
+    build: marusya/
+    restart: always
+    ports: 
+      - 5555:2281
+    volumes: 
+      - ./marusya:/usr/src/app
+    command: 'gunicorn -b 0.0.0.0:2281 app:app'
+
+#  chatbot:
+#    build: chatbot/
+#    ports:
+#      - 5005:5005
+#    volumes:
+#      - ./chatbot:/app
+#    command: 
+#      - run
+
+#  chatbot-action-server:
+#    image: rasa/rasa-sdk:2.1.2
+#    volumes: 
+#      - ./chatbot/actions:/app/actions
+
+  database:
+    build: sql/
+    env_file:
+      - database.env 
+    volumes: 
+      - database-data:/var/lib/postgresql/data/
+      - ./sql:/sql/
+
+  dbadmin:
+    image: dpage/pgadmin4:4.18
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: secret
+      PGADMIN_LISTEN_PORT: 666
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+  
+  nginx:
+    image: nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes: 
+      - ./nginx:/etc/nginx/conf.d
+      - ./static:/static/
+      - ./docs:/docs/
+    depends_on: 
+      - api
+      - marusya
+      - database
+
+volumes:
+  database-data:
+  pgadmin-data:

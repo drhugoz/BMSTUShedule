@@ -1,0 +1,607 @@
+{
+    "name": "'Рудаков И. В.'",
+    "schedule": [
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "name": "(лек) Моделирование",
+                    "from": "12:00",
+                    "to": "13:35",
+                    "location": "224л",
+                    "professor": "Рудаков И. В."
+                },
+                "evenweek": {
+                    "name": "(лек) Моделирование",
+                    "from": "12:00",
+                    "to": "13:35",
+                    "location": "224л",
+                    "professor": "Рудаков И. В."
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ],
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ],
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ],
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ],
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ],
+        [
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            },
+            {
+                "oddweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                },
+                "evenweek": {
+                    "from": "",
+                    "name": "",
+                    "location": "",
+                    "to": ""
+                }
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: find group schedule successfull
+  steps:
+  - intent: ask_group_schedule
+  - slot_was_set:
+    - group_name
+  - action: utter_group_schedule
+
+#- story: find group schedule with slot filled
+#  steps:
+#  - intent: ask_group_schedule
+#    entities:
+#    - name: group_name
+#  - action: utter_group_schedule
+
+- story: find group schedule without group_name
+  steps:
+  - intent: ask_group_schedule
+  - action: group_name_form
+  - active_loop: group_name_form
+  - action: utter_group_schedule

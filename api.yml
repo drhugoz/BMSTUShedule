@@ -1,0 +1,281 @@
+swagger: '2.0'
+info:
+  description: This is a simple API
+  version: 1.0.0
+  title: Bauman Schedule Bot API
+  # put the contact info for your development or API team
+  contact:
+    email: you@your-company.com
+
+paths:
+  /group:
+    get:
+      summary: Поиск расписания группы
+      operationId: searchGroup
+      description: |
+        Поиск расписания группы на неделю
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: name
+        description: Полное название группы
+        required: true
+        type: string
+      responses:
+        200:
+          description: Была найдена заданная группа
+          schema:
+            $ref: '#/definitions/Week'
+        404:
+          description: Группа не найдена
+  /professor:
+    get:
+      summary: Поиск расписания преподователя
+      operationId: searchProfessor
+      description: |
+        Поиск расписания преподователя(ей) по фамилии и/или инициалам
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: name
+        description: Фамилия(возможно с инициалами) преподователя
+        required: true
+        type: string
+      responses:
+        200:
+          description: Был найден один или более преподов
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/ProfessorWeek'
+        404:
+          description: Препод не найден
+  /hospital:
+    get:
+      summary: Поиск расписания врачей в поликлинике
+      operationId: searchHospital
+      description: |
+        Поиск расписания врачей в поликлинике
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: name
+        description: Фамилия(возможно с инициалами) врача
+        required: false
+        type: string
+      - in: query
+        name: aud
+        description: Номер кабинета врача
+        required: false
+        type: string
+      - in: query
+        name: spec
+        description: Специальность врача
+        required: false
+        type: string
+      - in: query
+        name: faculty
+        description: Факультет за который отвечате врач(предполагается, что для не терапевтов любой факультет подходит)
+        required: false
+        type: string
+      responses:
+        200:
+          description: По заданным фильтрам найден 1 и более врачей
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/DoctorSchedule'
+        404:
+          description: Врач не найден
+  /audience:
+    get:
+      summary: Поиск свободных аудиторий
+      operationId: searchAudience
+      description: |
+        Поиск свободных аудиторий
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: location
+        description: Тип корпуса(УЛК, ГЗ, СМ, Энерго)
+        required: false
+        type: string
+      - in: query
+        name: weektype
+        description: Тип недели(ЧС, ЗН)
+        required: false
+        type: string
+        default: Тип текущей недели
+      - in: query
+        name: weekday
+        description: День недели(пн, вт...)
+        required: false
+        type: string
+        default: Текущий день недели
+      - in: query
+        name: pairnum
+        description: Номер пары
+        required: false
+        type: string
+        default: Номер текущей пары
+      responses:
+        200:
+          description: Были найдены аудитории
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Aud'
+        404:
+          description: Препод не найден
+  /week:
+    get:
+      summary: Поиск недели
+      operationId: searchWeek
+      description: |
+        Номер и тип недели
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: date
+        description: Дата в формате дд.мм.гггг
+        required: false
+        type: string
+        default: Текущая дата
+      responses:
+        200:
+          description: Номер и тип недели
+          schema:
+            type: object
+            properties:
+              num:
+                type: integer
+                example: 5
+              type:
+                type: string
+                example: odd
+        409:
+          description: Неправильный формат входных данных
+  
+definitions:
+  Class:
+    type: object
+    required:
+    - name
+    - from
+    - to
+    - location
+    - type
+    properties:
+      name:
+        type: string
+        example: Базы данных
+      from:
+        type: string
+        example: 10.15
+      to:
+        type: string
+        example: 11.50
+      location:
+        type: string
+        example: 711л
+      type:
+        type: string
+        example: Сем
+      professor:
+        type: string
+        example: Иванов И. И.
+        
+  CompositeClass:
+    type: object
+    required:
+    - oddweek
+    - evenweek
+    properties:
+      oddweek:
+        $ref: '#/definitions/Class'
+      evenweek:
+        $ref: '#/definitions/Class'
+
+  Day:
+    type: array
+    items:
+      $ref: '#/definitions/CompositeClass'
+    minItems: 7
+    maxItems: 7
+  
+  Week:
+    type: array
+    items:
+      $ref: '#/definitions/Day'
+    minItems: 6
+    maxItems: 6
+  
+  ProfessorWeek:
+    type: object
+    required:
+    - name
+    - schedule
+    properties:
+      name:
+        type: string
+        example: Иванов И. И.
+      schedule:
+        $ref: '#/definitions/Week'
+  
+  Aud:
+    type: object
+    required:
+    - number
+    - location
+    properties:
+      number:
+        type: string
+        example: 395ю
+      location:
+        type: string
+        example: GZ
+  
+  DoctorSchedule:
+    type: object
+    required:
+    - name
+    - spec
+    - aud
+    - stage
+    properties:
+      name: 
+        type: string
+        example: Алексеева Л. А.
+      spec:
+        type: string
+        example: Терапевт
+      aud:
+        type: string
+        example: 209
+      stage:
+        type: integer
+        example: 2
+      faculty:
+        type: array
+        items:
+          type: string
+          example: ИУ
+      schedule:
+        type: array
+        items:
+          type: string
+          example: Прием по четным числам 10-15
+  
+# Added by API Auto Mocking Plugin
+host: virtserver.swaggerhub.com
+basePath: /RyazMax/BaumanScheduleBot/1.0.0
+# schemes:
+#  - http
+# Added by API Auto Mocking Plugin
+schemes:
+ - http

@@ -1,0 +1,6 @@
+connexion == 2.7.0
+python_dateutil == 2.6.0
+setuptools >= 21.0.0
+psycopg2-binary == 2.8.6
+Flask-API
+flask-cors

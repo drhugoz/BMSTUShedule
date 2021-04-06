@@ -1,0 +1,6 @@
+__pycache__/
+venv
+app.txt
+database-dump
+database-data
+database.env

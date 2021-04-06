@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "baumanschedule-dlld",
+  "private_key_id": "7e617118139b5dbde2550e3b47c0580c79050d7a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcpP2xmAWLGZ3l\n8INXkqJcEIt+a3fLm96zJydoIs4o1vngkd868DG781Uqiea1HgxEwqoqKKMWyeDl\nU/isbc0DP9bhEkL6+QUe0c676ModklQTfSnufejbRycBKwSCmM2Va8ufF8EyqCoL\nDuRarlqR308gZ/ma4a59ExwW1EdPzt4nel8aYuy4X65w9Tzv8WRa1J8yQl1nHE8N\nMTNMF90wBvaECcyUIQcjbqT7eLb51ssDp6U6HdFssVocwurEfakN1HaejY+BkGUo\nOefvG/lMBmPLyC32GzhdidlOcIrxv1L3jEyhid/EFXOzw/qVZCB0n0BC2U4ekCb/\nhzjHL3HPAgMBAAECggEAav08IPnwsi71QDK8VWH+hXrmUSJGX/4QYjm5o4bBBc+c\nMdc58efXjeYjpXFh4/ASjeMAxVmYH2w7t6fcnKvPbeRuSwviW7UVVQjyYG60VtuG\nFj8qboEyQOXDFY9o6/SxN2OiRF4t6eTeIieR9iC2PSaVxUZ1o7MMO4zhIXbEr37e\niSBDp14bNPutSJ72lYSrWLOfOeIIuedKBKQv7v+FRyTJKdMtxKS0L9fLSItUnXgx\nocM98rzvdLBafK5xlt5Xcxfre/mSeK4ARxddOjQRTppajVnJJb9WnJEpBoWh+zAt\nk+lHE4M7FWFyXOsgKswhV6ns6DNgZKQ7v7BPLLZZLQKBgQD9PaSBM8gyagRiVL+7\nYhc0/g6x1UaLxXP98SnTIgJ6Krk9YVTQDBwz41372tpwGu6ndbIaUNRLx/riHovb\nK+w0JFm2HyfBBqnM4AcOsu7/sgcrMgHiGhvH+SaaEPTMRhRhPWacxEOrKJvPwk67\npWxTFJgJTiJf5zdAFZFeZaaGjQKBgQDfDG2v/GWtCqMGDg2Uf1RpgYH3IXtSD5o2\nOlxyqbch1hFxh/LzW3Rg82Hn8IIjBCJOACy8Jvuxm1I/5oYNtFIixqjWnI8f/5JB\nYj/z5ip9XkY3G9UGu4ygHHe6YhJFTMYMu71IzwZweQpiZQGCDwAaQs3CqnyLr6B3\nW71Nfl3AywKBgHQbrzEN7Nwwf5IWCVKAxuMlGNewUYgEIApuaB7FmR0qOYRK+/fn\nlYa02IKA9WYw8vsUm3Q1WyDjr8O8/aKfoMzHXdqCrldyFqg4jwPORoY1udO0OejQ\nz6wAMBKzc4m1F+L9o+58jgoLtGStUiv2zJPK/WpGyLvv5wUa3mvJb3CBAoGBANZG\nS02IjGj7UfesInGpDP+6cY9nM+B2qrAzysJAtnSkAOfvMX+GOTw2M7UtAOgAva/v\nTQqH7L4Ht7E5lUivFUThUiuyBXE5BVkYuNVnJSSBH7UrYK/yFrtt/bspIeI/SffL\nl6DNeaMtNMOnwxYdsPyJdr/vJmzPELn5gNdkcU6XAoGBAJMGxAfker3ViUUEmN/R\nY7wws8DnAVw/SnSWVfKV0UcSCCUCBhlGWjHmvVRjDd/DwrWH5o4wT5oGUZRMRA4V\nZBwKXVoT6/EqwUiUL3SZyqm14LrYnRVp/9wrRL3lj8UVOp109gVanaUFkFSkF8Qs\ngQQxri61ClPKBqqv/kHI3mUk\n-----END PRIVATE KEY-----\n",
+  "client_email": "baumanschedule-174@baumanschedule-dlld.iam.gserviceaccount.com",
+  "client_id": "106551870497143321987",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/baumanschedule-174%40baumanschedule-dlld.iam.gserviceaccount.com"
+}

@@ -1,0 +1,624 @@
+[
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Моделирование",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "224л",
+                "professor": "Рудаков И. В."
+            },
+            "evenweek": {
+                "name": "(лек) Моделирование",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "224л",
+                "professor": "Рудаков И. В."
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Компьютерные сети",
+                "from": "13:50",
+                "to": "15:25",
+                "location": "224л",
+                "professor": "Рогозин Н. О."
+            },
+            "evenweek": {
+                "name": "(лек) Компьютерные сети",
+                "from": "13:50",
+                "to": "15:25",
+                "location": "224л",
+                "professor": "Рогозин Н. О."
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        }
+    ],
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(сем) Философия",
+                "from": "13:50",
+                "to": "15:25",
+                "location": "733л",
+                "professor": ""
+            },
+            "evenweek": {
+                "name": "(сем) Философия",
+                "from": "13:50",
+                "to": "15:25",
+                "location": "733л",
+                "professor": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(сем) Экономика часть 1",
+                "from": "15:40",
+                "to": "17:15",
+                "location": "615л",
+                "professor": "Сидельников И. Д."
+            },
+            "evenweek": {
+                "name": "(сем) Безопасность жизнедеятельности",
+                "from": "15:40",
+                "to": "17:15",
+                "location": "732л",
+                "professor": "Татаринов В. В."
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Философия",
+                "from": "17:25",
+                "to": "19:00",
+                "location": "218л",
+                "professor": ""
+            },
+            "evenweek": {
+                "name": "(лек) Основы разработки Web - приложений",
+                "from": "17:25",
+                "to": "19:00",
+                "location": "218л",
+                "professor": "Бекасов Д. Е."
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Безопасность жизнедеятельности",
+                "from": "19:10",
+                "to": "20:45",
+                "location": "218л",
+                "professor": "Татаринов В. В."
+            },
+            "evenweek": {
+                "name": "(лек) Безопасность жизнедеятельности",
+                "from": "19:10",
+                "to": "20:45",
+                "location": "218л",
+                "professor": "Татаринов В. В."
+            }
+        }
+    ],
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            },
+            "evenweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        }
+    ],
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            },
+            "evenweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        }
+    ],
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Экономика часть 1",
+                "from": "17:25",
+                "to": "19:00",
+                "location": "224л",
+                "professor": "Сидельников И. Д."
+            },
+            "evenweek": {
+                "name": "(лек) Тестирование и отладка программного обеспечения",
+                "from": "17:25",
+                "to": "19:00",
+                "location": "224л",
+                "professor": "Жаров С. В."
+            }
+        },
+        {
+            "oddweek": {
+                "name": "(лек) Защита информации",
+                "from": "19:10",
+                "to": "20:45",
+                "location": "224л",
+                "professor": "Григорьев А. С."
+            },
+            "evenweek": {
+                "name": "(лек) Защита информации",
+                "from": "19:10",
+                "to": "20:45",
+                "location": "224л",
+                "professor": "Григорьев А. С."
+            }
+        }
+    ],
+    [
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            },
+            "evenweek": {
+                "name": "Лабораторные работы ИУ7",
+                "from": "12:00",
+                "to": "13:35",
+                "location": "",
+                "professor": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        },
+        {
+            "oddweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            },
+            "evenweek": {
+                "from": "",
+                "name": "",
+                "location": "",
+                "to": ""
+            }
+        }
+    ]
+]

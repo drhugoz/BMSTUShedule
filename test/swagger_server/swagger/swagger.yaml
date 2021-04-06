@@ -1,0 +1,304 @@
+---
+swagger: "2.0"
+info:
+  description: "This is a simple API"
+  version: "1.0.0"
+  title: "Bauman Schedule Bot API"
+  contact:
+    email: "you@your-company.com"
+host: "localhost:4040"
+basePath: "/RyazMax/BaumanBotApi/1.0.0"
+schemes:
+- "https"
+- "http"
+paths:
+  /group:
+    get:
+      summary: "Поиск расписания группы"
+      description: "Поиск расписания группы на неделю\n"
+      operationId: "search_group"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        description: "Полное название группы"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Была найдена заданная группа"
+          schema:
+            $ref: "#/definitions/Week"
+        "404":
+          description: "Группа не найдена"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+  /professor:
+    get:
+      summary: "Поиск расписания преподователя"
+      description: "Поиск расписания преподователя(ей) по фамилии и/или инициалам\n"
+      operationId: "search_professor"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        description: "Фамилия(возможно с инициалами) преподователя"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Был найден один или более преподов"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/ProfessorWeek"
+        "404":
+          description: "Препод не найден"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+  /hospital:
+    get:
+      summary: "Поиск расписания врачей в поликлинике"
+      description: "Поиск расписания врачей в поликлинике\n"
+      operationId: "search_hospital"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        description: "Фамилия(возможно с инициалами) врача"
+        required: false
+        type: "string"
+      - name: "aud"
+        in: "query"
+        description: "Номер кабинета врача"
+        required: false
+        type: "string"
+      - name: "spec"
+        in: "query"
+        description: "Специальность врача"
+        required: false
+        type: "string"
+      responses:
+        "200":
+          description: "По заданным фильтрам найден 1 и более врачей"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/DoctorSchedule"
+        "404":
+          description: "Врач не найден"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+    patch:
+      summary: "Обновить время приема врача"
+      description: "Обновить время приема врача"
+      operationId: "update_hospital"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        description: "Фамилия(возможно с инициалами) врача"
+        required: true
+        type: string
+      - name: "date"
+        in: "query"
+        description: "Дата дд.мм"
+        required: true
+        type: string
+      - name: "time"
+        in: "query"
+        description: "Время 4:20 - 13:37"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "Обновлено"
+        "404":
+          description: "Неверно указан врач или дата"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+  /audience:
+    get:
+      summary: "Поиск свободных аудиторий"
+      description: "Поиск свободных аудиторий\n"
+      operationId: "search_audience"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "location"
+        in: "query"
+        description: "Тип корпуса(УЛК, ГЗ, СМ, Энерго)"
+        required: false
+        type: "string"
+      - name: "weektype"
+        in: "query"
+        description: "Тип недели(ЧС, ЗН)"
+        required: false
+        type: "string"
+      - name: "weekday"
+        in: "query"
+        description: "День недели(пн, вт...)"
+        required: false
+        type: "string"
+      - name: "pairnum"
+        in: "query"
+        description: "Номер пары"
+        required: false
+        type: "string"
+      responses:
+        "200":
+          description: "Были найдены аудитории"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Aud"
+        "404":
+          description: "Препод не найден"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+  /week:
+    get:
+      summary: "Поиск недели"
+      description: "Номер и тип недели\n"
+      operationId: "search_week"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "date"
+        in: "query"
+        description: "Дата в формате дд.мм.гггг"
+        required: false
+        type: "string"
+      responses:
+        "200":
+          description: "Номер и тип недели"
+          schema:
+            $ref: "#/definitions/inline_response_200"
+        "409":
+          description: "Неправильный формат входных данных"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
+definitions:
+  Class:
+    type: "object"
+    required:
+    - "from"
+    - "location"
+    - "name"
+    - "to"
+    - "type"
+    properties:
+      name:
+        type: "string"
+        example: "Базы данных"
+      from:
+        type: "string"
+        example: "10.15"
+      to:
+        type: "string"
+        example: "11.5"
+      location:
+        type: "string"
+        example: "711л"
+      professor:
+        type: "string"
+        example: "Иванов И. И."
+  CompositeClass:
+    type: "object"
+    required:
+    - "evenweek"
+    - "oddweek"
+    properties:
+      oddweek:
+        $ref: "#/definitions/Class"
+      evenweek:
+        $ref: "#/definitions/Class"
+  Day:
+    type: "array"
+    items:
+      $ref: "#/definitions/CompositeClass"
+    minItems: 7
+    maxItems: 7
+  Week:
+    type: "array"
+    items:
+      $ref: "#/definitions/Day"
+    minItems: 6
+    maxItems: 6
+  ProfessorWeek:
+    type: "object"
+    required:
+    - "name"
+    - "schedule"
+    properties:
+      name:
+        type: "string"
+        example: "Иванов И. И."
+      schedule:
+        $ref: "#/definitions/Week"
+    example:
+      schedule: ""
+      name: "Иванов И. И."
+  DoctorsDay:
+    type: "object"
+    required:
+    - "date"
+    - "time"
+    properties:
+      date:
+        type: string
+        example: "01.01.2020"
+      time:
+        type: string
+        example: "4:20-13:37"
+  Aud:
+    type: "object"
+    required:
+    - "location"
+    - "number"
+    properties:
+      number:
+        type: "string"
+        example: "395ю"
+      location:
+        type: "string"
+        example: "GZ"
+    example:
+      number: "395ю"
+      location: "GZ"
+  DoctorSchedule:
+    type: "object"
+    required:
+    - "aud"
+    - "name"
+    - "spec"
+    properties:
+      name:
+        type: "string"
+        example: "Алексеева Л. А."
+      spec:
+        type: "string"
+        example: "Терапевт"
+      aud:
+        type: "string"
+        example: "209"
+      schedule:
+        type: "array"
+        items:
+          $ref: "#/definitions/DoctorsDay"
+    example:
+      aud: "209"
+      name: "Алексеева Л. А."
+      spec: "Терапевт"
+  inline_response_200:
+    type: "object"
+    properties:
+      num:
+        type: "integer"
+        example: 5
+      type:
+        type: "string"
+        example: "odd"
+    example:
+      num: 5
+      type: "odd"

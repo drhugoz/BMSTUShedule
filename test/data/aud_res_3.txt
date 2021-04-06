@@ -1,0 +1,66 @@
+[
+    {
+        "number": "513ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "306ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "427ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "327",
+        "location": "ГЗ"
+    },
+    {
+        "number": "533",
+        "location": "ГЗ"
+    },
+    {
+        "number": "422",
+        "location": "ГЗ"
+    },
+    {
+        "number": "523",
+        "location": "ГЗ"
+    },
+    {
+        "number": "410ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "412ю",
+        "location": "ГЗ"
+    },
+    {
+        "number": "228",
+        "location": "ГЗ"
+    },
+    {
+        "number": "520",
+        "location": "ГЗ"
+    },
+    {
+        "number": "522",
+        "location": "ГЗ"
+    },
+    {
+        "number": "261",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 189.4",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 503",
+        "location": "ГЗ"
+    },
+    {
+        "number": "кк 212",
+        "location": "ГЗ"
+    }
+]
