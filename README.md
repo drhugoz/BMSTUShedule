@@ -1,4 +1,11 @@
 # Marusya Bauman Schedule Skill
+Web-сервис с расписанием МГТУ им. Н.Э.Баумана + навык для голосового помощника Маруся.
+
+@RyazMax
+@HammerFall42
+@drhugoz
+
+2020, BMSTU
 
 ## API
 Swagger api spec - https://app.swaggerhub.com/apis/RyazMax/BaumanBotApi/1.0.0
